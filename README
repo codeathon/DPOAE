@@ -1,0 +1,41 @@
+Project DPOAE (Distortion Product Otto-Acoustic Emmision) System
+
+Please refer to the Python installation guide for details on setting
+up Python and the the necessary library imports.
+The document is titled 
+DPOAE_System_Setup
+
+The Software:
+It needs to be modular. Hence after a thorough Requirement Gathering,
+the MVC (Model, View, Controller) framework was chosen.
+
+Package 'model':
+	The database used here is MySQL.
+	Contains an '_init_.py' which contains all the API's to enable communication
+	with the database.
+	For adding any more API's to enhance communication with the Database,
+	put the functions here.
+
+
+Package 'view'
+	This package contains the Front End (GUI - Graphical User Interface)
+	The GUI has been built using 'Tkinter'. 
+	All the GUI classes are in the '_init_.py' file of this package.
+	
+Package 'controller'
+	This package contains the code responsible for the controller.
+	This is invoked to direct the function calls to the respective view and model API's.
+	This can be exploited much better than what it currently is.
+
+All the code files are very well commented.
+
+Future work:
+The Experiment Maker and the Schedule Maker have been set up and work fine.
+These could be fine tuned based on some changes expected out of the software.
+To list a few:
+
+Experiment Maker:
+
+
+Schedule Maker:
+
